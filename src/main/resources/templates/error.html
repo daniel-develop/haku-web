@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Haku: Error</title>
+    <link rel = "stylesheet" th:href = "@{/css/error.css}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&family=News+Cycle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class = "error-style">
+        <div class = "main-content">
+            <a href = "/"><h1>HAKU</h1></a>
+            <h5><span>An error may have occurred while sending your request.</span></h5>
+            <p>Try again.</p>
+            <form action = "search" method = "GET">
+                <input  placeholder="SYMBOL" type = "text" name = "equityName"/>
+                <input type = "submit"/>
+            </form>
+        </div>
+        <footer>
+            <div class = "social-style">
+                <h5>Follow me.</h5>
+                <i class="fa fa-github-square" style="font-size:48px"></i>
+                <i class="fa fa-linkedin-square" style="font-size:48px"></i>
+                <i class="fa fa-chrome" style="font-size:48px"></i>
+            </div>
+            <div class = "footer-ending">
+                <h3>HAKU &bemptyv; CODED BY DANIEL TRAN. </h3>
+                <h5>Haku used for non-commercial purposes.</h5>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
