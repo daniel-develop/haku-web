@@ -6,4 +6,4 @@ before_install:
   - docker build -t goeunbyul/haku -f Dockerfile.dev .
 
 script:
-  - docker run -p 8080:8080 goeunbyuk/haku
+  - docker run -p 8080:8080 goeunbyul/haku
